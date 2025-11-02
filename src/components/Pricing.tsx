@@ -7,8 +7,8 @@ const Pricing: React.FC = () => {
 
   const handlePurchaseClick = useCallback((option: 'standard' | 'premium') => {
     const url = option === 'standard'
-      ? 'https://pay.kiwify.com.br/6tkqn2K'
-      : 'https://pay.kiwify.com.br/jk0QIb9';
+      ? 'https://remarketing-orcin.vercel.app/'
+      : 'https://www.ggcheckout.com/checkout/v2/Ni3orCR2x8kWHSw8LJ8O';
 
     try {
       if (window.utmify && window.utmify.pixel) {
